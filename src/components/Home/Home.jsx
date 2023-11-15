@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
-import './App.css'
-import Card from './components/Card/Card';
+import Card from '../Card/Card';
 
-function App() {
+export default function Home() {
   const item1 = {
     name: "Rick Sanchez",
     imageUrl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
@@ -62,5 +61,3 @@ function App() {
     </>
   )
 }
-
-export default App;
